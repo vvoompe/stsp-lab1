@@ -1,0 +1,10 @@
+# зібрані бінарники
+mycp
+mygrep
+mytree
+*.o
+
+# робочі теки скриптів перевірки
+tests/.demo_tmp/
+tests/.selftest_tmp/
+tests/*_out.txt
