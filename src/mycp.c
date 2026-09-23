@@ -259,8 +259,7 @@ static int copy_one(const char *src, const char *dst, const struct opts *o)
             char read_sz[32];
 
             human_size(copied, read_sz, sizeof read_sz);
-            printf("'%s' -> '%s' (%s, фактично прочитано %s - дірки збережено)\n",
-                   src, dst, sz, read_sz);
+            printf("'%s' -> '%s' (%s; прочитано %s)\n", src, dst, sz, read_sz);
         } else {
             printf("'%s' -> '%s' (%s)\n", src, dst, sz);
         }

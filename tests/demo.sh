@@ -118,4 +118,4 @@ chmod 755 demo/secret/sub
 banner "mytree немає_каталогу"
 "$ROOT/mytree" немає_каталогу; echo "код завершення: $?"
 
-printf '\nТестові файли залишено у %s (видалення: make clean)\n' "$SANDBOX"
+printf '\nТестові файли залишено у tests/.demo_tmp (видалення: make clean)\n'

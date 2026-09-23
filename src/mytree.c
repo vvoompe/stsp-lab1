@@ -406,8 +406,8 @@ int main(int argc, char *argv[])
                               інакше при перенаправленні рядки переплутаються */
     human_size(s.bytes, total, sizeof total);
     fprintf(stderr,
-            "\nРазом: каталогів %ld, звичайних файлів %ld, посилань %ld, інших %ld; "
-            "сумарний розмір файлів %s\n",
+            "\nРазом: каталогів %ld, файлів %ld, посилань %ld, інших %ld; "
+            "розмір файлів %s\n",
             s.dirs, s.files, s.links, s.other, total);
     if (s.errors > 0) {
         fprintf(stderr, "Помилок доступу: %ld\n", s.errors);
